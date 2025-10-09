@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Trade+Winds&display=swap');
+
+/* Base body style */
+body {
+    font-family: "Trade Winds", system-ui;
+    background-color: #FAA758;
+    color: #3f4c50
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Metal Mania", system-ui;
+    font-size: 40pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer{
+    text-align: center;
+    background-color: #719aa5;
+    padding:20px;
+    border:3px solid #7a7168;
+    border-radius: 40px;
+}
+
+#hero img{
+    width: 400px;
+   /* max-width: 100%; */
+}
+
+#bio{
+    text-align:center;
+}
+
+.artist {
+    width:400px;
+}
