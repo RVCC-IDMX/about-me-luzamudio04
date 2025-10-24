@@ -70,10 +70,44 @@ header {
     border: 2px solid #7a7168;
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
   max-width:100%;
   border: 3px solid #7a7168;
     border-radius: 20px;
+}
+
+/* Literature Section */
+
+#lit {
+    border: 2px solid #7a7168;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit h2  {
+    color: maroon;
+}
+
+#lit div p:nth-child(3n+1):first-letter {
+    color: maroon;
+    background-image: radial-gradient(red,black);
+    float: left;
+    font-size: 3em;
+    line-height: 1;
+    padding: 0.1rem .6rem;
+    margin-right: 0.3rem;
+    border: 1px outset solid wheat;
+    text-shadow: 2px 2px 4px wheat;
+    box-shadow: wheat 2px 2px 6px;
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
 }
