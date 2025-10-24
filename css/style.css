@@ -7,20 +7,22 @@ body {
     color: #3f4c50
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: "Metal Mania", system-ui;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 40pt;
 }
 
-header{
+header {
     text-align: center;
 }
 
-#hero, footer{
+/* Hero Section */
+
+#hero, footer {
     text-align: center;
     background-color: #719aa5;
     padding:20px;
@@ -28,18 +30,23 @@ header{
     border-radius: 40px;
 }
 
-#hero img{
+#hero img {
     width: 400px;
    /* max-width: 100%; */
 }
 
-#bio{
+/* Bio Section */
+#bio {
     text-align:center;
 }
 
 .artist {
     width:400px;
+    border: 3px solid #7a7168;
+    border-radius: 40px;
 }
+
+/* Hobbies Section */
 
 #hobbies ul li:nth-child(2){
     color: #f505e1
@@ -55,4 +62,18 @@ header{
 
 #hobbies ul li:nth-child(5){
     color: #1b9e49
+}
+
+/* Gallery Section */
+
+#gallery {
+    border: 2px solid #7a7168;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#gallery img {
+  max-width:100%;
+  border: 3px solid #7a7168;
+    border-radius: 20px;
 }
