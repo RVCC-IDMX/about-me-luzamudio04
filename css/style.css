@@ -9,6 +9,10 @@ body {
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Metal Mania", system-ui;
+    text-align: center;
+}
+
+h1{
     font-size: 40pt;
 }
 
@@ -35,4 +39,20 @@ header{
 
 .artist {
     width:400px;
+}
+
+#hobbies ul li:nth-child(2){
+    color: #f505e1
+}
+
+#hobbies ul li:nth-child(3){
+    color: #00237a
+}
+
+#hobbies ul li:nth-child(4){
+    color: #541b9e
+}
+
+#hobbies ul li:nth-child(5){
+    color: #1b9e49
 }
