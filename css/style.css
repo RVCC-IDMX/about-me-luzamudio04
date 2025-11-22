@@ -139,6 +139,54 @@ h2 {
     margin-bottom: 1em;
 }
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width:600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2px solid #719aa5;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #719aa5;
+    color: white;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style:none;
+    padding:0px;
+}
+
+#contact li {
+    margin:1rem;
+}
+
+#contact button {
+    background-color: #719aa5;
+    color: white;
+    border: 1px solid #7a7168;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}
+
 /* Tablet Size */
 @media screen and (min-width: 60em) {
 
