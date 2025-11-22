@@ -4,7 +4,7 @@
 body {
     font-family: "Trade Winds", system-ui;
     background-color: #FAA758;
-    color: #3f4c50
+    color: #3f4c50;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,16 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 40pt;
+    font-size: 30pt;
 }
 
 h2 {
     margin: .1em;
 }
 
-header {
+/* header {
     text-align: center;
-}
+}*/
 
 /* Hero Section */
 

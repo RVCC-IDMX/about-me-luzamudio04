@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transitions and Animations</title>
+    <body>
+        <h1>Transitions, Transformations & Animations</h1>
+
+        <div id="example">Example Div</div>
+
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+
+        <style>
+            ul {
+                list-style-type: none;
+                display:flex;
+                align-items: flex-end;
+                border: 1px solid gray;
+                justify-content: center;
+                height: 50px;
+            }
+
+            ul li {
+                border-bottom: 1px solid white;
+            }
+
+            ul li:hover {
+                margin-left: 1ex;
+                border-bottom: 1px solid black;
+                padding-top: 1ex;
+                padding-bottom: 1ex;
+            }
+
+            #example {
+                height: 100px;
+                align-content: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                transition-duration: 1s;
+                transition-timing-function: ease-in-out;
+            }
+
+            #example:hover {
+                background-color:red;
+                transition-duration: 1s;
+            border-radius: 100px;
+            transition-delay: .5s;
+            transform: rotateZ(90deg) translateX(100px);}
+
+        </style>
+        <style>
+            #anim {align-content: center;
+                    text-align: center;
+                    margin-left:auto;
+                    margin-right:auto;
+                    animation-name: basicAnim;
+                    animation-duration: 1.5s;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                    animation-timing-function: steps(5);}
+
+        #anim:hover {
+            animation-play-state: running;
+        }
+
+        @keyframes basicAnim {
+            0% {background-color: blue;}
+            50% {background-color: white;}
+            100% {background-color: red;}
+        }
+        </style>
+    </body>
+</html>
