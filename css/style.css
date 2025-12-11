@@ -3,8 +3,8 @@
 /* Base body style */
 body {
     font-family: "Trade Winds", system-ui;
-    background-color: #FAA758;
-    color: #3f4c50;
+    background-image: linear-gradient(to bottom, #171B1C, #a68053, #d97c2b, #d96523);
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,20 +59,28 @@ h2 {
     align-items: center;
 }
 
+#hobbies ul li:nth-child(1){
+    color: #60787C
+}
+
 #hobbies ul li:nth-child(2){
-    color: #f505e1
+    color: #386165
 }
 
 #hobbies ul li:nth-child(3){
-    color: #00237a
+    color: #0A3E4C
 }
 
 #hobbies ul li:nth-child(4){
-    color: #541b9e
+    color: #99523E
 }
 
 #hobbies ul li:nth-child(5){
-    color: #1b9e49
+    color: #76332A
+}
+
+#hobbies ul li:nth-child(6){
+    color: #613E38
 }
 
 /* Gallery Section */
