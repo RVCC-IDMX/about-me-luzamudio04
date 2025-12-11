@@ -42,13 +42,40 @@ h2 {
 
 /* Bio Section */
 #bio {
-    text-align:center;
+ text-align:center;
 }
 
-.artist {
-    width:300px;
-    border: 3px solid #7a7168;
+.lonely{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.lonely img {
+    width: 650px;
     border-radius: 40px;
+    border:5px solid #7a7168;
+}
+
+.lonely figcaption {
+    font-size: 1.2em;
+}
+
+.lonely_songs {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.lonely_songs audio {
+    display: block;
+    margin: 1rem auto;
+}
+
+.lonely_songs img {
+    width: 300px;
+    border-radius: 40px;
+    border:5px solid #7a7168;
 }
 
 /* Hobbies Section */
