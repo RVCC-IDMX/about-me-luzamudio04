@@ -26,7 +26,20 @@ h2 {
 
 /* Hero Section */
 
-#hero, footer {
+#hero{
+    text-align: center;
+    background-image: url('/img/BA_CSTLES.jpg');
+    background-size: 550px;
+    padding: 20px;
+    border:3px solid #7a7168;
+    border-radius: 40px;
+}
+
+#hero p{
+    font-size: 25px;
+}
+
+footer {
     text-align: center;
     background-color: #719aa5;
     padding:20px;
@@ -53,20 +66,27 @@ h2 {
 }
 
 .lonely img {
+    width: 100%;
     max-width: 600px;
     border-radius: 40px;
     border:5px solid #7a7168;
 }
 
 .lonely figcaption {
-    display: flex;
-    font-size: 1em;
+    font-size: 1.1em;
+}
+
+.lonely_songs figcaption {
+    font-size: 25px
+}
+
+.lonely_songs p {
+    font-size: 20px;
 }
 
 .lonely_songs {
     display: flex;
     align-items: center;
-    font-size: x-large;
 }
 
 .lonely_songs audio {
@@ -75,6 +95,7 @@ h2 {
 }
 
 .lonely_songs img {
+    width: 100%;
     width: 300px;
     border-radius: 40px;
     border:5px solid #7a7168;
@@ -128,35 +149,35 @@ h2 {
   border-radius: 20px;
 }
 
-/* Literature Section */
+/* blogerature Section */
 
-#lit {
+#blog {
     border: 2px solid #7a7168;
     border-radius: 20px;
     margin-bottom: 2rem;
 }
 
-#lit div {
+#blog div {
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
 }
 
-#lit h2  {
+#blog h2  {
     color: maroon;
 }
 
-#lit div p:nth-child(3n+1):first-letter {
-    color: #830E1B;
-    background-image: radial-gradient(#62122B,#4B0877);
+#blog div p:nth-child(3n+1):first-letter {
+    color: #980A1B;
+    background-image: radial-gradient(#531337,#3B0158,#590587);
     float: left;
     font-size: 3em;
     line-height: 1;
     padding: 0.1rem .6rem;
     margin-right: 0.3rem;
-    border: 1px outset solid wheat;
-    text-shadow: 2px 2px 4px wheat;
-    box-shadow: wheat 2px 2px 6px;
+    border: 1px outset solid #591428;
+    text-shadow: 2px 2px 4px #820D1E;
+    box-shadow: #621322 2px 2px 6px;
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
@@ -228,6 +249,7 @@ legend {
 /* Tablet Size */
 @media screen and (min-width: 60em) {
 
+
 #gallery figure {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -241,11 +263,9 @@ legend {
     margin-left: 1rem;
 }
 
-#lonely img {
-    max-width: 10%;
-}
 
-#lit div {
+
+#blog div {
     max-width: 100%;
     columns: 40rem;
 }
@@ -255,6 +275,10 @@ legend {
 /* Large Screen Size */
 
 @media screen and (min-width: 100em) {
+
+    .lonely_songs figure {
+        grid-template-columns: 1fr 1fr;
+    }
 
     #gallery {
         display: grid;
