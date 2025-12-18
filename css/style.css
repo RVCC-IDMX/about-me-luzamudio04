@@ -20,6 +20,13 @@ h2 {
     margin: .1em;
 }
 
+p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
 /* header {
     text-align: center;
 }*/
@@ -37,6 +44,7 @@ h2 {
 
 #hero p{
     font-size: 25px;
+    color: #FFA500;
 }
 
 footer {
@@ -111,15 +119,15 @@ footer {
 }
 
 #hobbies ul li:nth-child(1){
-    color: #60787C
+    color: #10787C
 }
 
 #hobbies ul li:nth-child(2){
-    color: #386165
+    color: #186165
 }
 
 #hobbies ul li:nth-child(3){
-    color: #0A3E4C
+    color: #1A3E4C
 }
 
 #hobbies ul li:nth-child(4){
@@ -131,7 +139,7 @@ footer {
 }
 
 #hobbies ul li:nth-child(6){
-    color: #613E38
+    color: #4C1A14
 }
 
 /* Gallery Section */
@@ -264,11 +272,11 @@ legend {
 }
 
 
-
 #blog div {
     max-width: 100%;
     columns: 40rem;
 }
+
 
 }
 
@@ -296,5 +304,37 @@ legend {
     #gallery h2 {
         grid-column: 1/-1;
     }
+
+}
+
+@media screen and (max-width: 80em) {
+  .lonely_songs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lonely_songs img {
+    max-width: 300px;
+  }
+
+  .lonely_songs figcaption {
+    text-align: center;
+  }
+
+  .lonely_songs audio {
+    width: 100%;
+  }
+  
+.lonely {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lonely figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
 
 }
