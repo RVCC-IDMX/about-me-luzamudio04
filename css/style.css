@@ -68,6 +68,7 @@ footer {
  text-align:center;
 }
 
+/* Destroy Lonely Section */
 .lonely{
     display: flex;
     align-items: center;
@@ -157,7 +158,7 @@ footer {
   border-radius: 20px;
 }
 
-/* blogerature Section */
+/* Blog Section */
 
 #blog {
     border: 2px solid #7a7168;
@@ -254,6 +255,40 @@ legend {
     justify-self: center;
 }
 
+/* default hover effect */
+.lonely img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.lonely_songs img {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.lonely_songs img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.lonely_songs img:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+@media (hover: hover) {
+  /* when hover is supported */
+  a:hover {
+    color: white;
+    background: black;
+  }
+}
+
 /* Tablet Size */
 @media screen and (min-width: 60em) {
 
@@ -307,6 +342,7 @@ legend {
 
 }
 
+/* Compressed/Small/Mobile Screen Size */
 @media screen and (max-width: 80em) {
   .lonely_songs {
     flex-direction: column;
